@@ -10,7 +10,7 @@ const featchapi = async () => {
 
 
 const Quote = () => {
-    const { data: quoteData } = useQuery(['quote'], featchapi)
+    const { data: quoteData, } = useQuery(['quote'], featchapi)
     // const [data, setData] = useState(null)
 
     // const featchdata = useCallback(async () => {
