@@ -4,6 +4,7 @@ import "./App.css";
 import Post from "./component/Post";
 import Quote from "./component/Quote";
 import SinglePost from "./component/SinglePost";
+import Videos from "./component/Videos";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <header className="App-header">
           <h1>React Query-2</h1>
           <Routes>
-            <Route path="/" element={<Post />} />
+            <Route path="/" element={<Videos />} />
             <Route path="/:id" element={<SinglePost />} />
           </Routes>
         </header>
